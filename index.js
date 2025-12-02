@@ -1,6 +1,5 @@
 const prompt = require("prompt-sync")();
 const fs = require('fs');
-const path = require ('path');
 
 // while (true) {
 // const escolha = prompt(`
@@ -26,7 +25,7 @@ const path = require ('path');
                 nome_praça: '',
                 pontos_bicicletas: [],
                 usuarios: [],
-                corridas: [],
+                corridas: []
             };
         }
     }
