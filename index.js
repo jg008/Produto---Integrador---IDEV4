@@ -47,5 +47,5 @@ console.log(db["usuarios"][0]["nome"]);
     }
  }
  db["usuarios"][1]["nome"] = "Isabela"; // atualiza
- db["usuarios"].push({"id": 3,"nome": "Isaque"}); // adiciona
+ db["usuarios"].push({"id": 3, "nome": "Isaque"}); // adiciona
  saveDB(db)
