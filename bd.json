@@ -21,7 +21,8 @@
                     "tipo": "manual 2",
                     "valor": 1
                 }
-            ]
+            ],
+            "tipo": "manual"
         },
         {
             "id": 2,
@@ -41,6 +42,11 @@
                 },
                 {
                     "tipo": "manual 2",
+                    "valor": 1
+                },
+                {
+                    "id": 4,
+                    "tipo": "eletrica",
                     "valor": 1
                 }
             ]
