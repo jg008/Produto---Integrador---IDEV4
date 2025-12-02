@@ -1,10 +1,10 @@
 {
     "nome_praça": "Pracinha do JK",
-    "pontos_bibicletas": [
+    "pontos_bicicletas": [
         {
             "id": 1,
             "local": "A",
-            "biciletas": [
+            "bicicletas": [
                 {
                     "tipo": "eletrica 1",
                     "valor": 2
