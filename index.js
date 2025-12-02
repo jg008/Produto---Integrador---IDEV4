@@ -52,5 +52,5 @@ console.log(db["usuarios"][0]["nome"]);
 //  db["usuarios"].push({"id": 3, "nome": "Isaque"}); // adiciona
  saveDB(db)
 
- db["pontosBicicleta"][1]["bicicletas"].push({"id": 30, "tipo":"eletrica", "valor": 1.0});
+ db["pontosBicicleta"][1]["bicicletas"].push({"id": 30, "tipo": "eletrica", "valor": 1.0});
  saveDB(db)
