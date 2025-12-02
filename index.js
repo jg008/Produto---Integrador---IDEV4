@@ -31,7 +31,7 @@ const fs = require('fs');
     }
 
  let db = loadDB();
- console.log(db["usuarios"][0]["nome"]);
+ console.log(DB["usuarios"][0]["nome"]);
  // console.log(db["corridas"][0]["inicio"]);
  // console.log(db["pontos_bicicleta"][1]["bicicletas"]);
  // console.log(db["pontos_bicicleta"][2]["bicicletas"][3]["tipo"]);
