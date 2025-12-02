@@ -48,6 +48,9 @@ console.log(db["usuarios"][0]["nome"]);
  }
 
 
- db["usuarios"][1]["nome"] = "Isabela"; // atualiza
- db["usuarios"].push({"id": 3, "nome": "Isaque"}); // adiciona
+//  db["usuarios"][1]["nome"] = "Isabela"; // atualiza
+//  db["usuarios"].push({"id": 3, "nome": "Isaque"}); // adiciona
+ saveDB(db)
+
+ db["pontosBicicleta"][1]["bicicletas"].push({"id": 30, "tipo":"eletrica", "valor": 1.0});
  saveDB(db)

@@ -1,38 +1,95 @@
-{        
-    "nome_praça":"Pracinha do JK",
-    "pontos_bibicletas":[
-        {"id":1,"local":"A", "biciletas":[
-            {"tipo":"eletrica 1", "valor":2.0},
-            {"tipo":"manual 1", "valor":1.0},
-            {"tipo":"eletrica 1", "valor":2.0},
-            {"tipo":"manual 2", "valor":1.0}
-        ]},
-        {"id":2,"local":"b", "biciletas":[
-            {"tipo":"eletrica 1", "valor":2.0},
-            {"tipo":"manual 1", "valor":1.0},
-            {"tipo":"eletrica 1", "valor":2.0},
-            {"tipo":"manual 2", "valor":1.0}
-        ]},
-        {"id":3,"local":"c", "biciletas":[
-            {"tipo":"eletrica 1", "valor":2.0},
-            {"tipo":"manual 1", "valor":1.0},
-            {"tipo":"eletrica 1", "valor":2.0},
-            {"tipo":"manual 2", "valor":1.0}
-        ]
-    }
-    ],
-    "usuarios":[
-        {"id":1,"nome":"jg"},
-        {"id":1,"nome":"joão gabriel"}
-    ],
-    "corridas":[
+{
+    "nome_praça": "Pracinha do JK",
+    "pontos_bibicletas": [
         {
-            "id_usuario":1,
-            "id_bicicleta":1,
-            "id_ponto_partida":1,
-            "id_ponto_chegada":2,
+            "id": 1,
+            "local": "A",
+            "biciletas": [
+                {
+                    "tipo": "eletrica 1",
+                    "valor": 2
+                },
+                {
+                    "tipo": "manual 1",
+                    "valor": 1
+                },
+                {
+                    "tipo": "eletrica 1",
+                    "valor": 2
+                },
+                {
+                    "tipo": "manual 2",
+                    "valor": 1
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "local": "b",
+            "biciletas": [
+                {
+                    "tipo": "eletrica 1",
+                    "valor": 2
+                },
+                {
+                    "tipo": "manual 1",
+                    "valor": 1
+                },
+                {
+                    "tipo": "eletrica 1",
+                    "valor": 2
+                },
+                {
+                    "tipo": "manual 2",
+                    "valor": 1
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "local": "c",
+            "biciletas": [
+                {
+                    "tipo": "eletrica 1",
+                    "valor": 2
+                },
+                {
+                    "tipo": "manual 1",
+                    "valor": 1
+                },
+                {
+                    "tipo": "eletrica 1",
+                    "valor": 2
+                },
+                {
+                    "tipo": "manual 2",
+                    "valor": 1
+                }
+            ]
+        }
+    ],
+    "usuarios": [
+        {
+            "id": 1,
+            "nome": "jg"
+        },
+        {
+            "id": 1,
+            "nome": "Isabela"
+        },
+        {
+            "id": 3,
+            "nome": "Isaque"
+        }
+    ],
+    "corridas": [
+        {
+            "id_usuario": 1,
+            "id_bicicleta": 1,
+            "id_ponto_partida": 1,
+            "id_ponto_chegada": 2,
             "Inicio": "24/11/2025 15:35:00",
-            "duração":"00:04:21"
+            "duração": "00:04:21"
         }
     ]
 }
