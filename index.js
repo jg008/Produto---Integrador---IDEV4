@@ -46,6 +46,8 @@ console.log(db["usuarios"][0]["nome"]);
         return false;
     }
  }
+
+ 
  db["usuarios"][1]["nome"] = "Isabela"; // atualiza
  db["usuarios"].push({"id": 3, "nome": "Isaque"}); // adiciona
  saveDB(db)
