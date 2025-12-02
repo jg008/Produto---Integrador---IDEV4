@@ -15,23 +15,24 @@ const fs = require('fs');
 // }
 // }
 
-    function loadDB() {
-        try {
-            const raw = fs.readFilesSync("./bd.json", 'uft8');
-            return JSON.parse(raw)
-        } catch(err) {
-            console.error('Erro ao ler bd.json:', err.message);
-            return {
-                nome_praça: '',
-                pontos_bicicletas: [],
-                usuarios: [],
-                corridas: []
-            };
-        }
-    }
+function loadDB() {
+  try {
+    const raw = fs.readFileSync("./bd.json", 'utf8');
+    return JSON.parse(raw);
+  } catch (err) {
+    console.error('Erro ao ler bd.json:', err.message);
+    return {
+      nome_praça: '',
+      pontos_bicicletas: [],
+      usuarios: [],
+      corridas: []
+    };
+  }
+}
 
- let db = loadDB();
- console.log(DB["usuarios"][0]["nome"]);
+let db = loadDB();
+console.log(db["usuarios"][0]["nome"]);
+
  // console.log(db["corridas"][0]["inicio"]);
  // console.log(db["pontos_bicicleta"][1]["bicicletas"]);
  // console.log(db["pontos_bicicleta"][2]["bicicletas"][3]["tipo"]);
