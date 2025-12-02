@@ -36,3 +36,16 @@ console.log(db["usuarios"][0]["nome"]);
  // console.log(db["corridas"][0]["inicio"]);
  // console.log(db["pontos_bicicleta"][1]["bicicletas"]);
  // console.log(db["pontos_bicicleta"][2]["bicicletas"][3]["tipo"]);
+
+ function saveDB(db) {
+    try {
+        fs.writeFileSync("./bd.json", JSON.stringify(db, null, 4), 'uft8');
+        return true;
+    } catch (err) {
+        console.error('Erro ao salvar bd.json:', err.message);
+        return false;
+    }
+ }
+ db["usuarios"][1]["nome"] = "Isabela";
+ console.log(db["usuarios"][1])
+ saveDB(db)
