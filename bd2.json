@@ -1,0 +1,10 @@
+{
+    "grupos": [
+        {
+            "nome": "Foguete",
+            "nome_integrantes": ["Gabriel Moreira","João Gabriel","Julia","Isabela"],
+            "nome_praça": "Praça da Bandeira",
+            "lista_materias": ["Placa de isopor","Cola","Tinta","Tesoura","E.V.A","Argila"]
+        }
+    ]
+}
