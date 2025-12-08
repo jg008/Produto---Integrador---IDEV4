@@ -5,30 +5,30 @@
             "nome_integrantes": ["Gabriel Moreira","João Gabriel","Julia","Isabela"],
             "nome_praça": "Praça da Bandeira",
             "lista_materias": ["Placa de isopor","Cola","Tinta","Tesoura","EVA","Argila"]
-        },
+    },
     {
            "nome": "Marília",
             "nome_integrantes": ["Isaque","Mallcon","Renata","Rafaella"],
             "nome_praça": "Praça da Liberdade",
             "lista_materias": ["Placa de isopor","Cola Quente","Tinta","Tesoura","Canetinha","Argila"]
     },
-        {
+    {
             "nome": "Pompéia",
             "nome_integrantes": ["Erick","Luiz Gustavo","Sarah","Lavínia"],
             "nome_praça": "Praça da Matriz",
             "lista_materias": ["Placa de isopor","Cola","Tinta","Tesoura","Argila","Canetinha","Lapís de Cor"]
-        },     
+    },     
     {
             "nome": "Marília 2",
             "nome_integrantes": ["Kauanny","Enzo","João Gustavo","Gabriel Augusto"],
             "nome_praça": "Praça do Amor",
             "lista_materias": ["Placa de isopor","Cola","Tinta","Tesoura","EVA","Argila","Gesso","Papelão"]
     },       
-        {
+    {
             "nome": "Putões",
             "nome_integrantes": ["Arthur Baldo","Caio","Cauã","Murilo"],
             "nome_praça": "Praça dos Putos",
             "lista_materias": ["Placa de isopor","Tinta","Tesoura","Argila","Leppo Baby","Cola Quente"]
-        }     
-    ]
+    }     
+          ]
 }
